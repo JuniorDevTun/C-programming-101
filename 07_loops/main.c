@@ -16,4 +16,13 @@ void main(){
     }
 
     
+
+    int age;
+	
+	do{
+		printf("Type in Your age : ");
+		scanf("%d", &age);
+	}while(age <= 0);
+	
+	printf("You are : %d years old.", age);
 }
